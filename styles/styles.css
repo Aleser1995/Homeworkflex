@@ -1,0 +1,67 @@
+body {
+
+	background-color: #EEE8AA;
+	font-family: 'Concert One', cursive;
+	margin: 0;
+}
+
+img {
+
+	width: 300px;
+	height: 120px;
+}
+
+.container{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+
+}
+.container2{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+background-color: white;
+}
+
+.box {
+	width: 300px;
+	height: 370px;
+	background-color: white;
+	border-radius:6px;
+	margin-left: 35px;
+	margin-right: 35px;
+	box-shadow: 1px 1px 8px grey;
+	overflow: hidden;
+
+}
+
+.box1{
+	color: blue;
+}
+.box2{
+	color: green;
+}
+.box3{
+	color: orange;
+}
+.box4{
+	color: red;
+}
+.menu {
+	display: inline-block;
+}
+.item{
+	padding-left: 10px;
+}
+.price
+{
+ padding-left: 175px;
+}
+.cardtext {
+	padding-left: 10px;
+}
+.cont2text{
+	display: block;
+}
