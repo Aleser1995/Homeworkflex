@@ -1,127 +1,131 @@
 body {
-
 	background-color: #EEE8AA;
-	font-family: 'Concert One', cursive;
+	font-family: 'Raleway', sans-serif;
 	margin: 0;
 	overflow-x: hidden;
 }
 
 img {
-
 	width: 300px;
 	height: 120px;
 }
-.cont1text{
+.contText {
 	padding-left: 40px;
 }
-.container{
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-justify-content: space-around;
+.container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
 }
 
-.container2{
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-justify-content: space-around;
-background-color: white;
+.container-2 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background-color: #ffffff;
+	padding-bottom: 40px;
 }
 
 .box {
 	width: 300px;
 	height: 370px;
-	background-color: white;
+	background-color: #ffffff;
 	border-radius:6px;
-	box-shadow: 1px 1px 8px grey;
+	box-shadow: 1px 1px 8px #a19999;
 	overflow: hidden;
-
 }
 
-.box1{
-	color: blue;
+.box-1 {
+	color: #3846c2;
 }
-.box2{
-	color: green;
+
+.box-2 {
+	color: #02a10a;
 }
-.box3{
-	color: orange;
+
+.box-3 {
+	color: #ff8400;
 }
-.box4{
-	color: red;
+
+.box-4 {
+	color: #db0b1c;
 }
+
 .menu {
 	display: inline-block;
 }
-.item{
+
+.item {
 	padding-left: 10px;
 }
-.price
-{
- padding-left: 175px;
+
+.price {
+ 	padding-left: 175px;
 }
-.cardtext {
+
+.cardText {
 	padding-left: 10px;
 }
-.cont2text{
+
+.contText-2 {
 	background-color: white;
 	width: 100%
 }
 
-h2.cont2text
-{
+h2.contText-2 {
+	padding-top: 10px;
 	padding-left: 40px;
 }
 
-h3.cont2text{
+h3.contText-2 {
 	margin:0;
-	padding-bottom: 20px;
+	padding-bottom: 30px;
 	padding-left: 40px;
 }
 
 
-.hover{
-
-  position: relative;
+.hover {
+	position: relative;
 }
+
 .hover:hover .overlay {
-  width: 100%;
+	width: 100%;
 }
 
 .text {
-  white-space: nowrap; 
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  overflow: hidden;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+	white-space: nowrap; 
+	color: #ffffff;
+	font-size: 20px;
+	position: absolute;
+  	overflow: hidden;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
 }
 
 .overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: #008CBA;
-  overflow: hidden;
-  width: 0;
-  height: 100%;
-  transition: .3s ease;
-  border-radius:6px;
+ 	position: absolute;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+  	background-color: #3846c2;
+  	overflow: hidden;
+  	width: 0;
+  	height: 100%;
+  	transition: .3s ease;
+  	border-radius:6px;
 }
 
-.overlay2 {
-background-color: green;
+.overlay-2 {
+	background-color: #02a10a;
 }
 
-.overlay3 {
-background-color: orange;
+.overlay-3 {
+	background-color: #ff8400;
 }
 
-.overlay4 {
-background-color: red;
+.overlay-4 {
+	background-color: #db0b1c;
 }
